@@ -185,3 +185,4 @@ Kern24_code/rf2.joblib
 .trackdown
 
 /test/temp
+paper/data/df_agg_prepared.csv.gz
