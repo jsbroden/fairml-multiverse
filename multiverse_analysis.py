@@ -50,7 +50,7 @@ multiverse_analysis = MultiverseAnalysis(
             "maxdeutsch.Missing.",
         ],
         # Post-Hoc threshold
-        "cutoff": [["quantile_0.3", "quantile_0.15"]],
+        "cutoff": [["quantile_0.15", "quantile_0.3"]],
     },
     output_dir=Path(args.output_dir),
     new_run=(args.mode != "continue"),
