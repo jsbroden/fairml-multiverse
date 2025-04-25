@@ -1,0 +1,98 @@
+[
+  {
+    "model": "logreg",
+    "exclude_features": "none",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "logreg",
+    "exclude_features": "frau1",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "logreg",
+    "exclude_features": "maxdeutsch1",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "logreg",
+    "exclude_features": "maxdeutsch.Missing.",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "rf",
+    "exclude_features": "none",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "rf",
+    "exclude_features": "frau1",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "rf",
+    "exclude_features": "maxdeutsch1",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "rf",
+    "exclude_features": "maxdeutsch.Missing.",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "gbm",
+    "exclude_features": "none",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "gbm",
+    "exclude_features": "frau1",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "gbm",
+    "exclude_features": "maxdeutsch1",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  },
+  {
+    "model": "gbm",
+    "exclude_features": "maxdeutsch.Missing.",
+    "cutoff": [
+      "quantile_0.15",
+      "quantile_0.3"
+    ]
+  }
+]

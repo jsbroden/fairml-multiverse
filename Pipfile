@@ -4,8 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fairlearn = "*"
-scikit-learn = "*"
 papermill = "*"
 folktables = {editable = true, ref = "39a6d5a8382b2e9503480d37390cb270e629836c", git = "https://github.com/jansim/folktables"}
 matplotlib = "*"
@@ -22,6 +20,8 @@ smac = "*"
 pip = "*"
 configspace = "*"
 fairness-multiverse = {editable = true, path = "./fairness_multiverse"}
+scikit-learn = "*"
+fairlearn = "*"
 
 [dev-packages]
 ipykernel = "*"
